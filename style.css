@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    background-color: rgb(100, 100, 100);
+}
+
+.sub-list {
+    position: absolute;
+    display: none;
+    width: max-content;
+}
+
+.list-item {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.list {
+    list-style: none;
+    text-align: center;
+}
+
+.link {
+    display: block;
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    padding: 10px 50px;
+}
+
+.link.active {
+    background-color: teal;
+}
+
+.sub-link{
+    display: block;
+    text-decoration: none;
+    background-color: powderblue;
+    color: white;
+    padding: 10px 50px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.sub-link:hover {
+    background-color: paleturquoise;
+}
+
+.list-item:hover .sub-list {
+    display: block;
+}
+
+.list-item:hover .link {
+    background-color: teal;
+}
+
+.subtitle-list {
+    position: absolute;
+    display: none;
+    width: max-content;
+    left: 100%;
+    top: 0%;
+}
+
+.sub-item {
+    position: relative;
+}
+
+.subtitle-link {
+    display: block;
+    text-decoration: none;
+    background-color: powderblue;
+    color: white;
+    padding: 10px 50px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.sub-item:hover .subtitle-list {
+    display: block;
+}
+
+.subtitle-link:hover {
+    background-color: paleturquoise;
+}
+
+.title {
+    color: rgb(216, 211, 211);
+    font-size: 30px;
+}
+
+.text {
+    font-size: 20px;
+    color: rgb(216, 211, 211);
+}
+
